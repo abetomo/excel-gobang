@@ -1,6 +1,6 @@
 {
   "name": "excel-gobang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple gobang game on excel",
   "main": "index.js",
   "scripts": {
