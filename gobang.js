@@ -3,7 +3,7 @@ var program = require('commander');
 var spawn = require('child_process').spawnSync;
 
 program
-    .command("server")
+    .command("server <op>")
     .description('建立五子棋服务器。\n')
     .action(createServer);
 
@@ -15,9 +15,9 @@ program
 program
     .parse(process.argv);
 
-function createServer() {
+function createServer(port) {
     const server = require('./lib/server');
-    server(0);
+    server(port);
 }
 
 function createClient(host) {

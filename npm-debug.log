@@ -7,6 +7,9 @@
 3 info using node@v6.10.2
 4 info git [ 'status', '--porcelain' ]
 5 verbose stack Error: Git working directory not clean.
+5 verbose stack M gobang.js
+5 verbose stack M lib/createGame.js
+5 verbose stack M lib/server.js
 5 verbose stack D npm-debug.log
 5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\version.js:247:19
 5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\no-progress-while-running.js:21:8
@@ -24,6 +27,9 @@
 9 error node v6.10.2
 10 error npm  v3.10.10
 11 error Git working directory not clean.
+11 error M gobang.js
+11 error M lib/createGame.js
+11 error M lib/server.js
 11 error D npm-debug.log
 12 error If you need help, you may report this error at:
 12 error     <https://github.com/npm/npm/issues>
