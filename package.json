@@ -1,6 +1,6 @@
 {
   "name": "excel-gobang",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "a simple gobang game on excel",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.11.0",
+    "node-xlsx": "^0.11.0",
     "ws": "^3.1.0"
   }
 }
