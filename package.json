@@ -1,10 +1,10 @@
 {
   "name": "excel-gobang",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a simple gobang game on excel",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "npm version patch --force && npm publish && npm i excel-gobang -g"
   },
   "bin": "./gobang.js",
   "repository": {
